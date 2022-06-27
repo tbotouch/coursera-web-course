@@ -11,8 +11,9 @@
 .title{
     float:right;
     border: 1px solid black;
-    padding:3px 10px;
+    padding:5px 30px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .details{
     clear:right;
@@ -20,7 +21,7 @@
 }
 body{
     font-family: Arial;
-    font-size:12px;
+    font-size:20px;
     margin:0px;
     padding-left:12px;
 }
@@ -37,10 +38,10 @@ body{
 
 @media(min-width:768px) and (max-width:991px){
     #chicken-container,#beef-container{
-        width:47.2%;
+        width:47.5%;
     }
     #sushi-container{
-        width:97.15%;
+        width:97.3%;
         
     }
 }
@@ -51,7 +52,7 @@ body{
 }
 @media(min-width:992px){
     .container{
-        width:30.55%;
+        width:31.7%;
     }
 }
 
