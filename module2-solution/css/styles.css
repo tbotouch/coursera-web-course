@@ -1,9 +1,8 @@
 .container{
     border: 1px solid black;
-    position:relative;
     margin-bottom: 10px;
-    margin-right: 7px;
-    width:31.5%;
+    margin-top:10px;
+    margin-right:15px;
     background-color: rgb(184, 184, 184);
     padding:0px 0px 4px 4px;
     float:left;
@@ -22,6 +21,8 @@
 body{
     font-family: Arial;
     font-size:12px;
+    margin:0px;
+    padding-left:12px;
 }
 #chicken{
     background-color: lightpink;
@@ -33,3 +34,24 @@ body{
 #sushi{
     background-color: lightyellow;
 }
+
+@media(min-width:768px) and (max-width:991px){
+    #chicken-container,#beef-container{
+        width:47.2%;
+    }
+    #sushi-container{
+        width:97.15%;
+        
+    }
+}
+@media(max-width:767px){
+    .container{
+        width:97.15%;
+    }
+}
+@media(min-width:992px){
+    .container{
+        width:30.55%;
+    }
+}
+
